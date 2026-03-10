@@ -1,11 +1,8 @@
-## 🚀 Quick Start Guide
-
-### Building from Source
+## Building
 
 Run `nix-shell`, then `code .` to launch vscode with the nix environment.
 
 ```bash
-# Create and navigate to build directory
 mkdir -p build && cd build
 
 # Configure the build
