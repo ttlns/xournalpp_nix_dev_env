@@ -1,7 +1,7 @@
 let
   pkgs = import (fetchTarball{ 
     url = "https://github.com/NixOS/nixpkgs/archive/nixos-25.11.tar.gz";
-    sha256 = "sha256:1v4f4p1v444r56m6n4jdjc6i1wg3gx724l0rnr45j6cvn5hf5zf9";
+    sha256 = "sha256:0ax8m8l20zd6hrbylrvlgs1inzd4nld8x4kh7r8k11inz7nfdjmw";
   }) {};
 in
 pkgs.mkShell {
@@ -10,7 +10,6 @@ pkgs.mkShell {
     cmake
     pkg-config
     gnumake
-    ninja
 
     # Build dependencies
     gettext

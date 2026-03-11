@@ -9,7 +9,7 @@ mkdir -p build && cd build
 cmake ../xournalpp -DCMAKE_INSTALL_PREFIX=install -DCMAKE_BUILD_TYPE=Debug
 
 # Install to ./build/install
-cmake --build . --target install
+cmake --build . --target install --parallel
 ```
 
 clean build
