@@ -8,6 +8,7 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     # Core Build Tools
     cmake
+    ninja
     pkg-config
     gnumake
 

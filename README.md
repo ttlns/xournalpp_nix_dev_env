@@ -6,7 +6,7 @@ Run `nix-shell`, then `code .` to launch vscode with the nix environment.
 mkdir -p build && cd build
 
 # Configure the build
-cmake ../xournalpp -DCMAKE_INSTALL_PREFIX=install -DCMAKE_BUILD_TYPE=Debug
+cmake -G Ninja ../xournalpp -DCMAKE_INSTALL_PREFIX=install -DCMAKE_BUILD_TYPE=Debug
 
 # Install to ./build/install
 cmake --build . --target install --parallel
