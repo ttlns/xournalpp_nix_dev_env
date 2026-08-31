@@ -1,6 +1,6 @@
 let
   pkgs = import (fetchTarball{ 
-    url = "https://github.com/NixOS/nixpkgs/archive/nixos-25.11.tar.gz";
+    url = "https://github.com/NixOS/nixpkgs/archive/refs/tags/26.05.tar.gz";
     sha256 = "sha256:0ax8m8l20zd6hrbylrvlgs1inzd4nld8x4kh7r8k11inz7nfdjmw";
   }) {};
 in
